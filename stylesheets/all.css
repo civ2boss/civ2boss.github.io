@@ -1,0 +1,113 @@
+/* line 1, /Users/rting/code/js_exercise/source/stylesheets/all.scss */
+* {
+  box-sizing: border-box; }
+
+/* line 4, /Users/rting/code/js_exercise/source/stylesheets/all.scss */
+html,
+body {
+  background-color: #ccc; }
+
+/* line 8, /Users/rting/code/js_exercise/source/stylesheets/all.scss */
+.cal-widget {
+  background-color: #000;
+  border: 5px solid #000;
+  border-radius: 5px;
+  border-top-width: 3px;
+  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.5), 0 -1px 0 rgba(255, 255, 255, 0.5), 0 -2px 0 black;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem auto;
+  padding-bottom: 9px;
+  width: 600px; }
+
+/* line 20, /Users/rting/code/js_exercise/source/stylesheets/all.scss */
+.cal-today {
+  background-color: #f7f7f7;
+  border-radius: 3px;
+  box-shadow: 0 2px 0 #bdbdbd, 0 3px 0 #fff, 0 5px 0 #bdbdbd, 0 6px 0 #fff, 0 8px 0 #bdbdbd, 0 9px 0 #fff;
+  text-align: center;
+  width: 250px; }
+
+/* line 27, /Users/rting/code/js_exercise/source/stylesheets/all.scss */
+.cal-today-day {
+  background: linear-gradient(to bottom, #e23636 0%, #ab2626 100%);
+  border-top: 1px solid #d17171;
+  border-bottom: 1px dashed #bb2a2a;
+  border-radius: 3px 3px 0 0;
+  box-shadow: 0 2px 0 #7b0909;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin: 0;
+  padding: .75rem 0;
+  text-shadow: 1px 1px 0 #000; }
+
+/* line 40, /Users/rting/code/js_exercise/source/stylesheets/all.scss */
+.cal-today-date {
+  color: #1a1a1a;
+  color: rgba(26, 26, 26, 0.8);
+  font-size: 9rem;
+  font-weight: 600;
+  letter-spacing: -10px;
+  margin: 0;
+  padding: .8rem 10px .8rem 0;
+  text-shadow: 1px 4px 6px #fff, 0 0 0 #000, 1px 4px 6px #fff; }
+
+/* line 50, /Users/rting/code/js_exercise/source/stylesheets/all.scss */
+.cal-month {
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 9px 0 white;
+  padding: 1rem;
+  text-align: center;
+  width: 335px; }
+  /* line 58, /Users/rting/code/js_exercise/source/stylesheets/all.scss */
+  .cal-month > table {
+    font-size: .75rem;
+    font-weight: 600;
+    width: 100%; }
+  /* line 63, /Users/rting/code/js_exercise/source/stylesheets/all.scss */
+  .cal-month th,
+  .cal-month td {
+    border-right: 1px dashed #ccc; }
+    /* line 67, /Users/rting/code/js_exercise/source/stylesheets/all.scss */
+    .cal-month th:last-child, .cal-month th:last-child,
+    .cal-month td:last-child,
+    .cal-month td:last-child {
+      border-right: 0; }
+    /* line 71, /Users/rting/code/js_exercise/source/stylesheets/all.scss */
+    .cal-month th a,
+    .cal-month td a {
+      padding: .3125rem 0; }
+  /* line 75, /Users/rting/code/js_exercise/source/stylesheets/all.scss */
+  .cal-month th {
+    color: #e33535;
+    font-size: .875rem; }
+  /* line 79, /Users/rting/code/js_exercise/source/stylesheets/all.scss */
+  .cal-month td a {
+    color: #9d9b9b;
+    display: block;
+    text-decoration: none; }
+  /* line 84, /Users/rting/code/js_exercise/source/stylesheets/all.scss */
+  .cal-month .cal-month-today {
+    background-color: #e33535; }
+    /* line 87, /Users/rting/code/js_exercise/source/stylesheets/all.scss */
+    .cal-month .cal-month-today a {
+      color: #fff; }
+
+/* line 92, /Users/rting/code/js_exercise/source/stylesheets/all.scss */
+.cal-controls {
+  display: flex;
+  justify-content: space-between; }
+  /* line 96, /Users/rting/code/js_exercise/source/stylesheets/all.scss */
+  .cal-controls > h2 {
+    color: #9d9b9b;
+    font-size: 1.125rem;
+    font-weight: 400; }
+  /* line 101, /Users/rting/code/js_exercise/source/stylesheets/all.scss */
+  .cal-controls > a {
+    color: #ccc;
+    font-weight: 600;
+    margin: .875rem 0;
+    padding: 0 1rem;
+    text-decoration: none; }
